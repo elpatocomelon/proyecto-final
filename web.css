@@ -1,0 +1,279 @@
+html{
+    background-color: #2F3233;
+}
+.titulo{
+    color: #2F3233;
+}
+h1{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.header h1{
+    display: inline;
+}
+h2{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+}
+.texto{
+    display: flex;
+    align-items: center;
+
+}
+.nav{
+    margin: 0px;
+   
+}
+.nav li{
+    list-style: none;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+    
+}
+.nav li a {
+    text-decoration: none;
+    background-color: azure;
+    padding: 10px;
+    display: block;
+    color: black;
+    
+}
+.nav li a:hover{
+    background-color: #c0c0c0;
+}
+.nav > li {
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover >ul {
+    display: block;
+}
+.supernav{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.contenedor {
+    width: 80%;
+    height: AUTO;
+    background-color: #4F5059;
+    margin:auto;
+    max-width: 1500px;
+    border-radius: 1%;
+    
+    
+    
+}
+#cantantes {
+    background-color: white;
+}
+.Header{
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedorcito{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+
+}
+.concepto1 {
+    padding: 20px;
+    width: 60%;
+    margin:0 ;
+    background-color: #cecece;
+    box-sizing: border-box;
+
+    
+
+    
+    
+}
+.fotografia {
+    padding: 20px;
+    width: 40%;
+    background-color: rgb(156, 238, 156,0);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+.foto {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 20%;
+}
+.artista{
+    display: flex;
+    margin: 10px auto;
+}
+#yo{
+    background-image: url(img/Sin\ título.png);
+    background-size: 120%;
+    background-position: center;
+ 
+}
+#ARTISTA1 {
+    background-image: url(img/lilpeep.jpg);
+    background-size: 155%;
+    background-position: center;
+}
+#ARTISTA2 {
+    background-image: url(img/image3.png);
+    background-size: 155%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA3 {
+    background-image: url(img/the-xxxtentacion-legacy-heroinfather-LnHCYI9yoxb-sa6Sc-tdFB8.webp);
+    background-size: 155%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA4 {
+    background-image: url(img/lilmoseyytecca.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA5 {
+    background-image: url(img/cuco.jpg);
+    background-size: 155%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA6 {
+    background-image: url(img/Lil-Xan.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA7 {
+    background-image: url(img/liluzivert.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA8 {
+    background-image: url(img/descarga\ \(3\).jpg);
+    background-size: 103%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA9 {
+    background-image: url(img/tripie\ reed.jpg);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA10 {
+    background-image: url(img/JuiceWRLD_NME_AFord-6601.jpg);
+    background-size: 160%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA11 {
+    background-image: url(img/lilpump.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ARTISTA12 {
+    background-image: url(img/Kidd\ Keo\ en\ Hermosillo.png);
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+}
+.separador{
+    background-color: rgb(43, 41, 41);
+    height: 10px;
+    width: 80%;
+   
+    margin: auto;
+    
+}
+
+.slider-frame {
+	width: 80%;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+#ESPECIAL {
+    background-color: white;
+}
+
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+@media screen and (max-width: 1000px){
+    .contenedorcito {
+        display: block;
+    }
+    .contenedor {
+        background-color: #4F5059;
+        width: 100%;
+    }
+    .concepto1 {
+        width: 100%;
+    }
+    .fotografia {
+        width: 100%;
+    }
+    .artista{
+        display: block;
+    }
+    
+}
